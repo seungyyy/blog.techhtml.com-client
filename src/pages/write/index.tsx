@@ -16,7 +16,7 @@ const WritePage:NextPage = () => {
 
   return (
     <div>
-      <h1>글 작성</h1>
+      <h1>글 작성하기</h1>
       <form>
         <input type="text" onChange={handleTitleChange} value={title} />
         <textarea onChange={handleTextAreaChange} value={post} />
